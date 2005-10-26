@@ -23,9 +23,9 @@ of a program without directly using a graphical library, such as GTK
 or Qt.
 
 %description -l pl
-Kaptain jest uniwersaln± nak³adk± graficzn±. Zosta³ stwrzony jako
+Kaptain jest uniwersaln± nak³adk± graficzn±. Zosta³ stworzony jako
 proste i efektywne narzêdzie do tworzenia interfejsu na programy
-dzia³aj±ce z linii poleceñ. Teraz, jego mo¿liwo¶ci komunikacyjne
+dzia³aj±ce z linii poleceñ. Teraz jego mo¿liwo¶ci komunikacyjne
 pozwalaj± zapewniæ interfejs graficzny programu bez bezpo¶redniego
 korzystania z bibliotek graficznych.
 
@@ -60,4 +60,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_mandir}/man?/*
-%{_infodir}/*
+%{_infodir}/*.info*
