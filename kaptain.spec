@@ -8,6 +8,9 @@ Group:		Applications/Shells
 Source0:	http://dl.sourceforge.net/kaptain/%{name}-%{version}.tar.gz
 # Source0-md5:	2a3a9d6acaa74a517a088a3aba1b9696
 URL:		http://kaptain.sourceforge.net/
+BuildRequires:	automake
+BuildRequires:	bison
+BuildRequires:	flex
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,7 +33,10 @@ korzystania z bibliotek graficznych.
 %setup -q
 
 %build
-%configure
+cp -f /usr/share/automake/config.sub admin
+%configure \
+	--with-qt-libraries=%{_libdir}
+
 %{__make}
 
 %install
