@@ -1,5 +1,5 @@
 Summary:	Universal graphical front-end for command line programs
-Summary(pl):	Uniwersalna graficzna nak³adka na programy dzia³aj±ce z linii poleceñ
+Summary(pl.UTF-8):   Uniwersalna graficzna nakÅ‚adka na programy dziaÅ‚ajÄ…ce z linii poleceÅ„
 Name:		kaptain
 Version:	0.72
 Release:	1
@@ -22,11 +22,11 @@ communication features allow it to serve the graphical user interface
 of a program without directly using a graphical library, such as GTK
 or Qt.
 
-%description -l pl
-Kaptain jest uniwersaln± nak³adk± graficzn±. Zosta³ stworzony jako
-proste i efektywne narzêdzie do tworzenia interfejsu na programy
-dzia³aj±ce z linii poleceñ. Teraz jego mo¿liwo¶ci komunikacyjne
-pozwalaj± zapewniæ interfejs graficzny programu bez bezpo¶redniego
+%description -l pl.UTF-8
+Kaptain jest uniwersalnÄ… nakÅ‚adkÄ… graficznÄ…. ZostaÅ‚ stworzony jako
+proste i efektywne narzÄ™dzie do tworzenia interfejsu na programy
+dziaÅ‚ajÄ…ce z linii poleceÅ„. Teraz jego moÅ¼liwoÅ›ci komunikacyjne
+pozwalajÄ… zapewniÄ‡ interfejs graficzny programu bez bezpoÅ›redniego
 korzystania z bibliotek graficznych.
 
 %prep
