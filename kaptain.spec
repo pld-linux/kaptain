@@ -1,5 +1,5 @@
 Summary:	Universal graphical front-end for command line programs
-Summary(pl.UTF-8):   Uniwersalna graficzna nakładka na programy działające z linii poleceń
+Summary(pl.UTF-8):	Uniwersalna graficzna nakładka na programy działające z linii poleceń
 Name:		kaptain
 Version:	0.72
 Release:	1
